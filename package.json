@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "jquery": "^3.3.1"
-  }
+    "jquery": "^3.3.1",
+    "text": "github:requirejs/text"
+  },
+  "name": "imooc-requirejs",
+  "version": "1.0.0",
+  "main": "app.build.js",
+  "devDependencies": {},
+  "scripts": {
+    "package": "node r.js -o app.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinyearchan/imooc-requirejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cinyearchan/imooc-requirejs/issues"
+  },
+  "homepage": "https://github.com/cinyearchan/imooc-requirejs#readme",
+  "description": ""
 }
